@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="module" src="../js/script.js"></script>
+    <!-- External JS -->
+    <title>Edit post - Travel Blog</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header">
+          <div class="logo">
+            <a href="../index.html"
+              ><img src="../assets/logo.svg" alt="Travel Blog Logo" /> TRAVEL
+              BLOG</a
+            >
+          </div>
+          <ul class="navbar"></ul>
+        </div>
+        <div class="header-container">
+          <img
+            src="../assets/header.png"
+            class="headerimg"
+            alt="Header Image"
+          />
+          <div class="overlay-text">
+            Every journey opens the door to new adventures, cultures, and
+            unforgettable experiences.
+          </div>
+        </div>
+      </header>
+      <main>
+        <div id="post-container">
+          <fieldset>
+            <h1>Edit Post</h1>
+            <div id="message"></div>
+            <form id="editPostForm">
+              <input
+                type="text"
+                id="title"
+                name="title"
+                placeholder="Title"
+                required
+              />
+              <input
+                type="text"
+                id="body"
+                name="body"
+                placeholder="Your story!"
+                required
+              />
+              <h2>
+                <label for="mediaUrl">Link to photo:</label>
+              </h2>
+              <input
+                type="url"
+                id="mediaUrl"
+                name="mediaUrl"
+                placeholder="Enter image URL"
+                required
+              />
+              <button type="submit" class="button">Update Post</button>
+            </form>
+          </fieldset>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-links"></div>
+      </footer>
+    </div>
+  </body>
+</html>

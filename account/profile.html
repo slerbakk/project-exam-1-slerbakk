@@ -4,16 +4,17 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <script src="./js/script.js" type="module"></script>
-    <title>Home - Travel Blog</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/script.js" type="module"></script>
+    <!-- Import the new profile.js -->
+    <title>Your profile - Travel Blog</title>
   </head>
   <body>
     <div class="wrapper">
       <header>
         <div class="header">
           <div class="logo">
-            <a href="index.html"
+            <a href="../index.html"
               ><img src="../assets/logo.svg" alt="Travel Blog Logo" /> TRAVEL
               BLOG</a
             >
@@ -21,7 +22,11 @@
           <ul class="navbar"></ul>
         </div>
         <div class="header-container">
-          <img src="./assets/header.png" class="headerimg" alt="Header Image" />
+          <img
+            src="../assets/header.png"
+            class="headerimg"
+            alt="Header Image"
+          />
           <div class="overlay-text">
             Every journey opens the door to new adventures, cultures, and
             unforgettable experiences.
@@ -29,20 +34,10 @@
         </div>
       </header>
       <main>
-        <section>
-          <div id="loading-indicator">
-            <div class="spinner"></div>
-          </div>
-          <div class="carousel-container">
-            <button class="prev" aria-label="Previous"></button>
-            <div class="carousel"></div>
-            <button class="next" aria-label="Next"></button>
-          </div>
-        </section>
-        <section class="all-posts">
-          <h1>All Posts</h1>
-          <div class="grid-container"></div>
-        </section>
+        <h1>Profile</h1>
+        <div class="profile-container">
+          <div id="profile-details"></div>
+        </div>
       </main>
       <footer class="footer">
         <div class="footer-links"></div>

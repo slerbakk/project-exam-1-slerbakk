@@ -6,7 +6,7 @@
     <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <script src="../js/script.js" type="module"></script>
-    <title>Register - Travel Blog</title>
+    <title>Create post - Travel Blog</title>
   </head>
   <body>
     <div class="wrapper">
@@ -33,34 +33,24 @@
         </div>
       </header>
       <main>
+        <h1>Create Post</h1>
         <fieldset>
-          <h1>Register</h1>
-
-          <form id="registerForm" action="#" method="POST">
+          <form id="createPostForm" action="#" method="POST">
             <div id="message"></div>
+            <input type="text" name="title" placeholder="Title" required />
+            <textarea name="body" placeholder="Your story!" required></textarea>
+            <h2>
+              <label for="mediaUrl">Link to photo:</label>
+            </h2>
             <input
-              type="text"
-              pattern="^[^@]+@(stud\.|)(noroff\.no)$"
-              name="email"
-              title="Please provide a noroff.no or stud.noroff.no email adress."
-              placeholder="Email"
+              type="url"
+              id="mediaUrl"
+              name="mediaUrl"
+              pattern="https?://(?:www\.)?.+\.(?:jpg|jpeg|png|gif|webp)$"
+              placeholder="Enter image URL"
               required
             />
-            <input
-              type="text"
-              pattern="[A-Za-z0-9_]+"
-              name="name"
-              placeholder="Username"
-              required
-            />
-            <input
-              type="password"
-              name="password"
-              minlength="8"
-              placeholder="Password"
-              required
-            />
-            <button type="submit" class="button">Register</button>
+            <button type="submit" class="button">Create blog post!</button>
           </form>
         </fieldset>
       </main>
