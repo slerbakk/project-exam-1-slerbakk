@@ -1,6 +1,6 @@
 # Exam Travel Blog
 
-![image]()
+![image](https://github.com/slerbakk/project-exam-1-slerbakk/blob/main/assets/blog.png)
 
 This project is a webpage for a blog called **Travel Blog**. The webpage is built using **HTML**, **CSS**, and **JavaScript**, allowing users to create, edit, and delete blog posts about their travel experiences during exam seasons.
 
