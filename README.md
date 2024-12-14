@@ -1,4 +1,41 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/99-paxaL)
-# FED1 Project Exam 1
+# Exam Travel Blog
 
-Use this file to describe your project.
+![image]()
+
+This project is a webpage for a blog called **Travel Blog**. The webpage is built using **HTML**, **CSS**, and **JavaScript**, allowing users to create, edit, and delete blog posts about their travel experiences during exam seasons.
+
+## Description
+
+This project focuses on the functionality of a blogging platform where users can:
+
+- Register
+- Log in
+- Create new blog posts
+- Edit existing blog posts
+- Delete blog posts
+
+It uses **HTML** for structure, **CSS** for styling, and **JavaScript** for the interactive functionalities like login, registration, and blog post management.
+
+## Built With
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## Getting Started
+
+### Installing
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/yourusername/exam-travel-blog.git
+```
+
+## Contributing
+
+If you want to contribute, you can do a pull request and I'll review it as soon as posible.
+
+## Contact
+
+you can get in touch with me at slerbakk@outlook.com
