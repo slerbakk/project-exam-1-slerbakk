@@ -29,7 +29,7 @@ It uses **HTML** for structure, **CSS** for styling, and **JavaScript** for the 
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/exam-travel-blog.git
+git clone https://github.com/slerbakk/project-exam-1-slerbakk.git
 ```
 
 ## Contributing
